@@ -1,0 +1,40 @@
+{
+  "name": "my_qr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --trace-warnings server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "jsqr": "^1.4.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "qrcode": "^1.5.3",
+    "qrcode-reader": "^1.0.4",
+    "sequelize": "^6.37.3",
+    "speakeasy": "^2.0.0",
+    "unzipper": "^0.12.1",
+    "url": "^0.11.3",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

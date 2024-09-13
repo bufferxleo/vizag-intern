@@ -1,0 +1,237 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(109deg, #ddd5fc 0%, #f4e1dd 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 47px;
+}
+
+.logout-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.logout-button-background {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  background: black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.logout-button-text {
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.companyTitle {
+  color: #555555;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.super-admin-detials {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.admin-parent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+}
+
+.super-admin-profile {
+  width: 250px;
+  height: 250px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.super-admin-company-details {
+  width: 250px;
+  height: 300px;
+  background: white;
+  border-radius: 15px;
+}
+
+.super-admin-additions {
+  width: 940px;
+  height: 560px;
+  background: white;
+  border-radius: 15px;
+}
+
+.super-admin-profile-pic {
+  width: 120px;
+  height: 135px;
+}
+
+.super-admin-det-columns {
+  text-align: center;
+}
+
+.super-admin-det-values {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.super-admin-det-lables,
+.super-admin-det-values,
+.super-admin-det-columns {
+  line-height: 0.65;
+  text-align: left;
+}
+
+.super-admin-del-container {
+  display: flex;
+  gap: 4px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.super-admin-company-details {
+  text-align: left;
+  line-height: 0.9;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.super-admin-company-details-pairs {
+  padding-top: 10px;
+}
+.super-admin-company-details-value {
+  padding-left: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 3px;
+  height: 25px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.super-admin-company-details-lable {
+  font-weight: 700;
+  margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.super-admin-addition-buttons {
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.super-admin-additions-header {
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.super-admin-additions-header-head {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  word-break: nowrap;
+}
+
+.super-admin-addition-buttons-add-admin {
+  font-size: 10px;
+  width: 120px;
+  height: 30px;
+  font-weight: 600;
+  background: white;
+  border-radius: 15px;
+  color: #1e2772;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: flex-end;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.para {
+  padding-right: 15px;
+}
+.super-admin-addition-buttons-add-admin-pic {
+  height: 20px;
+  width: 20px;
+}
+
+.super-admin-addition-search {
+  display: flex;
+  flex-wrap: wrap;
+}
+.super-admin-addition-search-input {
+  width: 160px;
+  height: 25px;
+
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border: 1px solid black;
+}
+
+.super-admin-addition-search-input-style-container {
+  width: 40px;
+  height: 28px;
+  background: black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.super-admin-addition-search-input-img {
+  height: 17px;
+  width: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+  .super-admin-additions {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    width: 250px;
+  }
+
+  .super-admin-company-details,
+  .super-admin-profile {
+    display: none;
+  }
+  .companyTitle {
+    font-size: 15px;
+  }
+  .super-admin-additions-header-head {
+    font-size: 8px;
+  }
+}
